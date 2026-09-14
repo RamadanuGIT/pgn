@@ -1,7 +1,7 @@
 function Hero() {
   return (
-    <section className="bg-[#23303F] text-white px-15 py-20">
-      <div className="max-w-7xl mx-auto grid grid-cols-2 gap-12 items-center">
+    <section className="bg-[#23303F] text-white px-15 py-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* KIRI */}
         <div>
           <h1 className="text-5xl font-bold leading-tight mb-6">
@@ -27,11 +27,11 @@ function Hero() {
         </div>
 
         {/* KANAN */}
-        <div>
+        <div className="flex items-center justify-center w-full">
           <img
-            src="hero.jpeg"
+            src="hero.jpg"
             alt="PT Purbaya Garda Nusantara"
-            className="w-full h-112.5 object-cover rounded-2xl shadow-2xl"
+            className="w-full h-auto object-contain rounded-2xl shadow-2xl mt-6"
           />
         </div>
       </div>
